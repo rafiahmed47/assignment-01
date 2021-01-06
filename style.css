@@ -8,7 +8,8 @@ body{
     color:salmon;
 }
 h1{
-    font-size:85px;
+    font-size:70px;
+    height:10%;
 }
 h3{
     color:slategrey;
@@ -24,7 +25,7 @@ h3{
 }
 section{
     height: 500px;
-    padding-bottom: 500px;
+    padding-bottom: 350px;
 }
 
 .link-button{
@@ -43,5 +44,30 @@ section{
     margin-left:8%;
 }
 .small-box img{
-    width:100%;
+    width:60%;
+}
+#projects-heading{
+    text-align: center;
+}
+#highlight-heading{
+    color: orange;
+}
+#background-color{
+    background-color: rgb(240, 233, 233);
+    border-radius: 40px;
+}
+#photo{
+    background-image:url("images/Group_33094_1.png");
+    background-repeat:no-repeat;
+    background-size: 60% 30%;
+    background-position: top center;
+}
+#line-stuff{
+    text-align: center;
+}
+.background-p{
+    color:white;
+}
+footer{
+    text-align:center;
 }
